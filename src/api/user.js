@@ -10,9 +10,9 @@ module.exports = (router) => {
     });
 
     //注册
-    router.post("/users/add", ctx => {
+    router.get("/users/add", ctx => {
         const userName=ctx.request.body.name;
-        const pwd=ctx.request.body.pwd;
+        const pwd=ctx.request.body.pwd
         ctx.session.user={
             name:userName
         }
