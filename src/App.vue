@@ -14,7 +14,7 @@ export default {
     };
   },
   mounted: function() {
-    //post way
+    // post way
     // fetch("/users/add", {
     //   method: "POST", // or 'PUT'
     //   body: JSON.stringify({
